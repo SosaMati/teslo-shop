@@ -11,7 +11,7 @@ import { IProduct } from '../../../interfaces';
 import SaveOutlined from '@mui/icons-material/SaveOutlined';
 import UploadOutlined from '@mui/icons-material/UploadOutlined';
 import { dbProducts } from '../../../database';
-import { tesloApi } from '../../../api';
+import { tesloApi } from '../../../axiosApi';
 import { Product } from '../../../models';
 
 

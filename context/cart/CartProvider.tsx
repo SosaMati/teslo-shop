@@ -4,7 +4,7 @@ import Cookie from 'js-cookie';
 
 import { ICartProduct, ShippingAddress, IOrder } from '../../interfaces';
 import { CartContext, cartReducer } from './';
-import { tesloApi } from '../../api';
+import { tesloApi } from '../../axiosApi';
 
 export interface CartState {
     isLoaded: boolean;
